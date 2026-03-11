@@ -3,7 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "src",
-  outDir: "docs",
+  outDir: "docs",//打包的输出在根目录下的docs
+  base:"/blogger/",//这是你的git仓库的名字
   title: "看风景人的博客",
   description: "看风景人的博客",
   themeConfig: {
